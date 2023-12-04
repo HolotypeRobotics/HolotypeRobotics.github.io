@@ -38,6 +38,42 @@ a:hover {
 	text-decoration: underline;
 }
 
+/* Dropdown Styles */
+.about-us-dropdown ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* display: inline-block; */
+}
+
+.about-us-dropdown ul li {
+    /* display: inline-block; */
+    position: relative;
+    margin-right: 20px;
+}
+
+.about-us-dropdown ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #121523;
+    border: 1px solid #2780e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.about-us-dropdown ul li:hover ul {
+    display: block;
+}
+
+.about-us-dropdown ul li ul li {
+    display: block;
+    width: 160px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
 /* Layout */
 .container {
 	max-width: 800px;
@@ -59,7 +95,7 @@ h3 {
 }
 
 .introduction {
-	font-size: 1 em;
+	font-size: 1em;
 	margin-bottom: 40px;
 }
 
