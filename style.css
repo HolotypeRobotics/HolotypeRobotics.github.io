@@ -38,41 +38,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-/* Dropdown Styles */
-.about-us-dropdown ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    /* display: inline-block; */
-}
-
-.about-us-dropdown ul li {
-    /* display: inline-block; */
-    position: relative;
-    margin-right: 20px;
-}
-
-.about-us-dropdown ul li ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #121523;
-    border: 1px solid #2780e0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-}
-
-.about-us-dropdown ul li:hover ul {
-    display: block;
-}
-
-.about-us-dropdown ul li ul li {
-    display: block;
-    width: 160px;
-    padding: 10px;
-    margin-top: 5px;
-}
 
 /* Layout */
 .container {
@@ -123,4 +88,33 @@ h3 {
 	text-align: center;
 	font-size: 1em;
 	margin: 60px 0;
+}
+
+/* Accordion Styles */
+.card {
+    border: none;
+    border-radius: 0; /* Square corners */
+    margin-bottom: 0px; /* Adjust the spacing around cards */
+}
+
+.card-header {
+    background-color: #121523; /* Match the background color of your website */
+	padding: 0px; /* Adjust the spacing around cards */
+	font-weight: 700;
+
+
+}
+
+.card-header button {
+    color: #fcfcfc; /* Text color for accordion titles */
+}
+
+.card-body {
+    background-color: #1a1f2a; /* Match the background color of your website */
+    color: #9a8bf1;
+}
+
+/* Adjust the border color when hovering over the accordion titles */
+.card-header:hover {
+    border-color: #2780e0;
 }
