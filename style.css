@@ -93,15 +93,13 @@ h3 {
 /* Accordion Styles */
 .card {
     border: none;
-    border-radius: 0; /* Square corners */
     margin-bottom: 0px; /* Adjust the spacing around cards */
 }
 
 .card-header {
     background-color: #121523; /* Match the background color of your website */
 	padding: 0px; /* Adjust the spacing around cards */
-	font-weight: 700;
-
+	
 
 }
 
